@@ -1,0 +1,9 @@
+Routage Paramétré
+
+1- Configuration: {path:"editUser/:params, component:nameComponent}
+2- Appel: <a [routerlink]="['path',param]" />
+    navigate(['path',param])
+3- Emplacement: 
+4- Récuperation des données
+    4.1 Snapshot
+    4.2 paramMap

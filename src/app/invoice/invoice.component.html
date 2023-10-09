@@ -1,0 +1,11 @@
+<div *ngIf="active">
+    <h2>Invoice Details </h2>
+    <h6>Facture: {{ id }}</h6>
+    <!-- Affichez d'autres détails de la facture ici -->
+    <button (click)="goBack()">Retour</button>
+  </div>
+  <div *ngIf="!active">
+    <p>Impossible de visualiser les détails de la facture.</p>
+    <button (click)="goBack()">Retour</button>
+  </div>
+  
