@@ -18,6 +18,7 @@ import { EditUserComponent } from './edit-user/edit-user.component';
 import { MainInvoiceComponent } from './main-invoice/main-invoice.component';
 import { InvoiceListComponent } from './invoice-list/invoice-list.component';
 import { InvoiceComponent } from './invoice/invoice.component';
+import { M1Module } from './m1/m1.module';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { InvoiceComponent } from './invoice/invoice.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    M1Module
   ],
   providers: [],
   bootstrap: [AppComponent]
